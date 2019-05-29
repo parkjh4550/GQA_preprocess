@@ -3,6 +3,10 @@ import config
 import re
 from nltk.translate.bleu_score import sentence_bleu
 
+
+# if you set TRUE, it will be run.
+# At the first time, set all of them to be TRUE
+
 ID = False               # get img_id and question_id(GQA)
 CAPTION = False         # get caption data
 QUESTION = False         # get question data
